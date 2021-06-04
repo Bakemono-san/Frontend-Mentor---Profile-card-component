@@ -1,0 +1,79 @@
+body{
+    background: no-repeat -70% 160% url("images/bg-pattern-top.svg"), 165% -89% no-repeat url("images/bg-pattern-bottom.svg"),hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: white;
+    width: 350px;
+    border-radius: 8px;
+}
+.un{
+    background: no-repeat url("images/bg-pattern-card.svg");
+    width: 350px;
+    height: 140px;
+    border-radius: 8px 8px 0px 0px;
+}
+.deux{
+    width: 350px;
+    text-align: center;
+}
+.tete{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    background: white;
+    position: relative;
+    top: -50px;
+    border-radius: 100%;
+    padding: 4px;
+    margin: 0px;
+}
+p{
+    color: hsl(0, 0%, 59%);
+    position: relative;
+    top: -50px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 14px;
+}
+span{
+    color: hsl(229, 23%, 23%);
+    margin-right: 9px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.list{
+    border-top: 1px grey solid;
+    padding: 24px;
+    border-radius: 0px 0px 8px 8px;
+}
+.pre{
+    position: relative;
+    left: 0px;
+    word-spacing: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pos{
+    position: relative;
+    left: 0px;
+    word-spacing: 50px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+@media (max-width: 500px) {
+    body{
+        background: no-repeat 140% 120% url("images/bg-pattern-top.svg"), -20% -70% no-repeat url("images/bg-pattern-bottom.svg"),hsl(185, 75%, 39%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        margin: 12px;
+    }
+}
